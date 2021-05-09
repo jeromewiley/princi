@@ -24,12 +24,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '8.9.10',
-    'version' => '8.9.10.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '58c1cc9bef6dcaf8ae44dd54bd46cb40e7d5895f',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -121,6 +121,15 @@ private static $installed = array (
       array (
         0 => '8.9.10',
       ),
+    ),
+    'drupal/admin_toolbar' => 
+    array (
+      'pretty_version' => '3.0.0',
+      'version' => '3.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3.0.0',
     ),
     'drupal/aggregator' => 
     array (
@@ -746,6 +755,15 @@ private static $installed = array (
         0 => '8.9.10',
       ),
     ),
+    'drupal/phpmailer' => 
+    array (
+      'pretty_version' => '3.0.0-beta1',
+      'version' => '3.0.0.0-beta1',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-3.0-beta1',
+    ),
     'drupal/quickedit' => 
     array (
       'replaced' => 
@@ -762,12 +780,12 @@ private static $installed = array (
     ),
     'drupal/recommended-project' => 
     array (
-      'pretty_version' => '8.9.10',
-      'version' => '8.9.10.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '58c1cc9bef6dcaf8ae44dd54bd46cb40e7d5895f',
     ),
     'drupal/responsive_image' => 
     array (
@@ -824,6 +842,24 @@ private static $installed = array (
       array (
         0 => '8.9.10',
       ),
+    ),
+    'drupal/slack' => 
+    array (
+      'pretty_version' => '1.3.0',
+      'version' => '1.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.3',
+    ),
+    'drupal/smtp' => 
+    array (
+      'pretty_version' => '1.0.0',
+      'version' => '1.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.0',
     ),
     'drupal/standard' => 
     array (
@@ -1087,6 +1123,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'dbb42a5a0e45f3adcf99babfb2a1ba77b8ac36a7',
+    ),
+    'phpmailer/phpmailer' => 
+    array (
+      'pretty_version' => 'v6.4.1',
+      'version' => '6.4.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '9256f12d8fb0cd0500f93b19e18c356906cbed3d',
     ),
     'psr/container' => 
     array (
